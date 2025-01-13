@@ -1057,6 +1057,41 @@
         },
         "cat": "changeset"
     },
+    "resultmaps": {
+        "name": "ResultMaps",
+        "osmwiki": "ResultMaps",
+        "cat": "changeset",
+        "styles": {
+            "tile_edits": {
+                "name": "Latest Edits by Tile",
+                "url": "https://resultmaps.neis-one.org/osm-edits-tile/#",
+                "query": {
+                    "map": "{{z}}/{{lat}}/{{lon}}"
+                }
+            },
+            "suspicious": {
+                "name": "Suspicious Changesets",
+                "url": "https://resultmaps.neis-one.org/osm-suspicious#",
+                "query": {
+                    "map": "{{z}}/{{lat}}/{{lon}}"
+                }
+            },
+            "new_contributors": {
+                "name": "Newest Contributors",
+                "url": "https://resultmaps.neis-one.org/newestosm#",
+                "query": {
+                    "map": "{{z}}/{{lat}}/{{lon}}"
+                }
+            },
+            "unmapped": {
+                "name": "Unmapped Places",
+                "url": "https://resultmaps.neis-one.org/unmapped#",
+                "query": {
+                    "map": "{{z}}/{{lat}}/{{lon}}"
+                }
+            }
+        }
+    },
     "osm_org_notes": {
         "name": "OpenStreetMap.org Notes",
         "osmwiki": "Notes",
